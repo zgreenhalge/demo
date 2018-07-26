@@ -1,14 +1,23 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"snippet-format": "snippet",
+	"total": 1000,
+	"start": 1,
+	"page-length": 10,
+	"facets": {
+		"gender": {
+			"type": "xs:string",
+			"facetValues": [
+				{
+					"name": "Female",
+					"count": 486,
+					"value": "Female"
+				},
+				{
+					"name": "Male",
+					"count": 514,
+					"value": "Male"
+				}
+			]
+		}
+	}
 }
